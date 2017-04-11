@@ -12,6 +12,7 @@ There are two components to this project.
 ### Back-end Usage
 1. Download/clone the git repository.
 2. Copy the `altcart` folder from the git repo root into your project.
-3. `require_once(../location/of/altcart/folder)` at the top of the files you wish to use altcart on.
+3. `require_once(../location/of/altcart/use-altcart.php)` at the top of the files you wish to use altcart on.
+4. Customize `altcart/config.php` to your shop specifications.
 
 That's it!
