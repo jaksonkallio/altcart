@@ -1,0 +1,12 @@
+[
+	{
+		"ticker": "BTC",
+		"name": "bitcoin",
+		"requires_viewkey": false,
+		"address_lookup_api": "https://blockexplorer.com/api/addr/%s",
+		"address_lookup_api_selector": "balance",
+		"address_lookup_api_balance_unit": 100000000,
+		"price_lookup_api": "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCUSD",
+		"price_lookup_api_selector": "averages-day"
+	}
+]
