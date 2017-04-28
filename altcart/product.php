@@ -5,6 +5,7 @@ class Product {
 	private $crypto_price;
 	private $fiat_price;
 	private $api;
+	private $is_digital_good;
 
 	public function __construct($product_id, $api) {
 		// Load product from the database
