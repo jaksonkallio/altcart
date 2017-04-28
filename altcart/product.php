@@ -6,6 +6,7 @@ class Product {
 
 	public function __construct($product_id) {
 		// Load product from the database
+		// Generate price based on which is set to main currency
 	}
 
 	// Set name of product
