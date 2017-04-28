@@ -1,6 +1,7 @@
 <?
 class Product {
 	private $name;
+	private $id;
 	private $crypto_price;
 	private $fiat_price;
 
