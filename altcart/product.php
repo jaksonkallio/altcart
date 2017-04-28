@@ -43,6 +43,12 @@ class Product {
 
 	private function findOtherPrice(){
 		// Finds the price of the opposite currency off of the base currency.
+
+		if(MAIN_CURRENCY_FIAT){
+			// Find the crypto price using fiat currency
+		}else{
+			// Find the fiat price using cryptocurrency
+		}
 	}
 }
 ?>
