@@ -17,6 +17,13 @@ class Product {
 	// Set price of product
 	public function setPrice($new_price){
 		// If MAIN_CURRENCY_FIAT is true, new price is in fiat.
+
+		if(MAIN_CURRENCY_FIAT){
+			$fiat_price = $new_price;
+		}else{
+			$crypto_price = $new_price;
+		}
+	}
 	}
 
 	private function updateProductInfo(){
