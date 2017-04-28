@@ -4,8 +4,9 @@ class Product {
 	private $id;
 	private $crypto_price;
 	private $fiat_price;
+	private $api;
 
-	public function __construct($product_id) {
+	public function __construct($product_id, $api) {
 		// Load product from the database
 		// Generate price based on which is set to main currency
 	}
