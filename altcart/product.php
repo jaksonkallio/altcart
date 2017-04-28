@@ -28,6 +28,13 @@ class Product {
 	public function getName(){
 		return $name;
 	}
+
+	public function getPrice(){
+		if(MAIN_CURRENCY_FIAT){
+			return $fiat_price;
+		}else{
+			return $crypto_price;
+		}
 	}
 
 	private function updateProductInfo(){
