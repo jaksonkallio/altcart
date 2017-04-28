@@ -14,7 +14,8 @@ class Product {
 
 	// Set name of product
 	public function setName($new_name){
-
+		$name = $new_name;
+		// TODO: Database update new name
 	}
 
 	// Set price of product
