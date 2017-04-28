@@ -1,7 +1,7 @@
 <?
 class Product {
 	private $name;
-	private $price;
+	private $crypto_price;
 	private $fiat_price;
 
 	public function __construct($product_id) {
