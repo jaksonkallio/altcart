@@ -24,6 +24,10 @@ class Product {
 			$crypto_price = $new_price;
 		}
 	}
+
+	public function getName(){
+		return $name;
+	}
 	}
 
 	private function updateProductInfo(){
